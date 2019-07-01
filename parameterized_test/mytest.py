@@ -11,6 +11,8 @@ def calcu(a, b):
 
 
 data = DataToParam().text('../files/test.txt')
+
+
 # print data
 # print ('data type is %s' % (type(data)))
 
@@ -20,7 +22,6 @@ class MyTest(unittest.TestCase):
 
     @nose_parameterized.parameterized.expand(data)
     def test2(self, x, y, z):
-
         z = int(z)
         res = calcu(int(x), int(y))
         self.assertEqual(res, z)
