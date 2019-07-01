@@ -1,0 +1,2 @@
+nose-parameterized==0.6.0
+xlrd==1.2.0

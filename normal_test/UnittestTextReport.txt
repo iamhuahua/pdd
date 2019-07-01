@@ -1,0 +1,26 @@
+test_add (test_mathfunction.TestMathFunction) ... ok
+test_minus (test_mathfunction.TestMathFunction) ... ok
+test_multiply (test_mathfunction.TestMathFunction) ... ok
+test_divide (test_mathfunction.TestMathFunction) ... FAIL
+
+======================================================================
+FAIL: test_divide (test_mathfunction.TestMathFunction)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/dgg/PycharmProjects/pdd/test_mathfunction.py", line 27, in test_divide
+    self.assertEqual(2.5, divide(5, 2))
+AssertionError: 2.5 != 2
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+FAILED (failures=1)
+test_add (test_mathfunction.TestMathFunction) ... ok
+test_minus (test_mathfunction.TestMathFunction) ... ok
+test_multiply (test_mathfunction.TestMathFunction) ... ok
+test_divide (test_mathfunction.TestMathFunction) ... skipped "I don't want to run this case"
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK (skipped=1)
